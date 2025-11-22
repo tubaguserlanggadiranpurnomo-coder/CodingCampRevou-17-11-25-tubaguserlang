@@ -6,7 +6,7 @@ function setGreetingName() {
     // Cek apakah elemen sapaan ada di halaman (hanya ada di index.html)
     if (greetingElement) {
         // Ganti [Nama Anda] di sini. Contoh: "Budi"
-        const companyName = "Tubagus"; 
+        const companyName = "TimRevo"; 
         
         // Mengubah teks sambutan
         greetingElement.textContent = `Hi, ${companyName}`;
@@ -61,4 +61,5 @@ function handleFormSubmission() {
 document.addEventListener('DOMContentLoaded', () => {
     setGreetingName();
     handleFormSubmission();
+
 });
