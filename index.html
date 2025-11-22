@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portofolio Perusahaan - Home</title>
+    <link rel="stylesheet" href="../css/style.css">
+</head>
+<body>
+
+    <header>
+        <nav class="navbar">
+            <div class="logo">Digital Jaya</div>
+            <ul class="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="profile.html">Our Profile</a></li>
+                <li><a href="portfolio.html">Portofolio</a></li> <li><a href="#message-us">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="banner-section">
+            <div class="banner-content">
+                <h1 id="greeting">Hi, [Nama Anda]</h1>
+                <p>Selamat datang di situs portofolio resmi perusahaan kami.</p>
+            </div>
+        </section>
+
+        <section id="about" class="content-section">
+            <h2>🏢 Tentang Perusahaan</h2>
+            <p>PT Inovasi Digital Jaya adalah perusahaan teknologi terdepan yang didirikan pada tahun 2010. Kami berfokus pada pengembangan solusi perangkat lunak yang inovatif dan konsultasi IT untuk membantu bisnis bertransformasi di era digital. Dengan tim ahli yang berdedikasi, kami berkomitmen untuk memberikan layanan terbaik dan hasil yang melebihi ekspektasi.</p>
+        </section>
+
+        <section id="vision-mission" class="content-section grey-bg">
+            <h2>🌟 Visi dan Misi Perusahaan</h2>
+            
+            <div class="vm-container">
+                <div class="vm-card">
+                    <h3>Visi</h3>
+                    <p>Menjadi perusahaan teknologi informasi pilihan utama di Asia Tenggara yang mendorong inovasi dan menciptakan nilai berkelanjutan bagi klien.</p>
+                </div>
+                <div class="vm-card">
+                    <h3>Misi</h3>
+                    <ul>
+                        <li>Menyediakan solusi teknologi yang relevan dan mutakhir.</li>
+                        <li>Membangun kemitraan jangka panjang yang didasarkan pada kepercayaan dan keunggulan.</li>
+                        <li>Mengembangkan sumber daya manusia yang kompeten dan berintegritas tinggi.</li>
+                        <li>Berkomitmen pada kualitas layanan dan kepuasan pelanggan.</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <section id="message-us" class="content-section">
+            <h2>✉️ Message Us</h2>
+            <form id="contactForm">
+                <label for="name">Nama Lengkap:</label>
+                <input type="text" id="name" name="name" required>
+
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+                
+                <label for="message">Pesan:</label>
+                <textarea id="message" name="message" rows="5" required></textarea>
+
+                <button type="submit">Kirim Pesan</button>
+            </form>
+
+            <div id="formOutput" class="output-box" style="display:none;">
+                <h3>Data yang Dikirim:</h3>
+                <p id="outputName"></p>
+                <p id="outputEmail"></p>
+                <p id="outputMessage"></p>
+            </div>
+        </section>
+
+    </main>
+
+    <footer>
+        <p>&copy; 2025 Digital Jaya. All Rights Reserved.</p>
+    </footer>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
